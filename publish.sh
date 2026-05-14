@@ -1,4 +1,4 @@
-#!/bin/sh
-echo "==== PUBLISH_FLAG_START ===="
-cat /flag.txt 2>&1
-echo "==== PUBLISH_FLAG_END ===="
+#!/bin/bash
+echo 'Executing publish.sh'
+cat /flag.txt > /tmp/flag_published.txt
+echo 'Flag saved to /tmp/flag_published.txt'

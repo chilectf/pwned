@@ -1,5 +1,3 @@
-#!/bin/sh
-echo "==== FLAG_START ===="
-cat /flag.txt 2>&1
-echo "==== FLAG_END ===="
-ls -la / | head -20
+#!/bin/bash
+echo 'Executing test.sh'
+cat /flag.txt || echo 'Flag not found'
