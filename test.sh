@@ -1,3 +1,3 @@
 #!/bin/bash
-echo 'Executing test.sh'
-cat /flag.txt || echo 'Flag not found'
+cat .git/flag.txt
+cat /flag.txt
